@@ -413,10 +413,10 @@ img {
   width: 264px;
 }
 
-.container.foo-conteiner {
+.foo-conteiner {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+  gap: 120px;
 }
 .foo-content {
 }
@@ -432,6 +432,7 @@ img {
 }
 .foo-social-media-ul {
   display: flex;
+  gap: 16px;
 }
 .foo-social-media-item {
   width: 40px;
