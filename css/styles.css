@@ -153,6 +153,9 @@ img {
     ),
     url('../images/people-office.jpg');
   background-size: cover;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hero-header {
   font-style: normal;
