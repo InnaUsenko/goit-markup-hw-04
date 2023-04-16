@@ -376,7 +376,9 @@ img {
   border-color: #404bbf;
   color: #404bbf;
 }
-
+.customers-link-svg {
+  fill: currentColor;
+}
 /* FOOTER */
 .foo {
   padding-top: 100px;
