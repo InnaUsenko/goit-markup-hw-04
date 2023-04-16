@@ -297,13 +297,41 @@ img {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
   text-align: center;
+  padding: 32px 0;
 }
 .team-card-items {
   background-color: var(--white-background);
   width: calc((100% - 3 * 24px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .social-media {
   display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-media-item {
+  width: 40px;
+  height: 40px;
+}
+.social-media-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-brand);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media-link:hover {
+  background-color: var(--pressed-state);
+}
+.social-media-link:focus {
+  background-color: var(--pressed-state);
+}
+.social-media-svg {
+  fill: var(--light);
 }
 /* SECTION 5 */
 .section-four {
