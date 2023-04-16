@@ -275,7 +275,6 @@ img {
 }
 .team-cards {
   display: flex;
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 24px;
@@ -288,6 +287,28 @@ img {
 .team-card-items {
   background-color: var(--white-background);
   width: calc((100% - 3 * 24px) / 4);
+}
+.social-media {
+  display: flex;
+}
+/* SECTION 5 */
+.section-four {
+}
+.customers-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+  margin-bottom: 72px;
+}
+.customers {
+  display: flex;
+}
+.customers-item {
 }
 
 /* FOOTER */
