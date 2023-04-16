@@ -228,6 +228,15 @@ img {
   width: calc((100% - 3 * 24px) / 4);
   gap: 8px;
 }
+.features-item-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 
 /* SECTION 3 */
 .section-two {
