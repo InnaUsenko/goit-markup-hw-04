@@ -111,9 +111,7 @@ img {
   color: var(--dark);
   padding: 24px 0 24px;
 }
-.nav-links:hover {
-  color: var(--pressed-state);
-}
+.nav-links:hover,
 .nav-links:focus {
   color: var(--pressed-state);
 }
@@ -127,9 +125,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--text);
 }
-.contact-links:hover {
-  color: var(--pressed-state);
-}
+.contact-links:hover,
 .contact-links:focus {
   color: var(--pressed-state);
 }
@@ -192,9 +188,7 @@ img {
   height: 56px;
   border: none;
 }
-.hero-button:hover {
-  background-color: var(--pressed-state);
-}
+.hero-button:hover,
 .hero-button:focus {
   background-color: var(--pressed-state);
 }
@@ -225,6 +219,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+  margin-bottom: 8px;
 }
 .features-item {
   width: calc((100% - 3 * 24px) / 4);
@@ -326,12 +321,11 @@ img {
   align-items: center;
   justify-content: center;
 }
-.social-media-link:hover {
-  background-color: var(--pressed-state);
-}
+.social-media-link:hover,
 .social-media-link:focus {
   background-color: var(--pressed-state);
 }
+
 .social-media-svg {
   fill: var(--light);
 }
@@ -370,10 +364,7 @@ img {
   justify-content: center;
   color: #8e8f99;
 }
-.customers-link:hover {
-  border-color: #404bbf;
-  color: #404bbf;
-}
+.customers-link:hover,
 .customers-link:focus {
   border-color: #404bbf;
   color: #404bbf;
@@ -381,6 +372,7 @@ img {
 .customers-link-svg {
   fill: currentColor;
 }
+
 /* FOOTER */
 .foo {
   padding-top: 100px;
@@ -447,12 +439,11 @@ img {
   align-items: center;
   justify-content: center;
 }
-.foo-social-media-link:hover {
-  background-color: var(--success);
-}
+.foo-social-media-link:hover,
 .foo-social-media-link:focus {
   background-color: var(--success);
 }
+
 .foo-social-media-svg {
   fill: var(--light);
 }
@@ -481,13 +472,7 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
-.filter-btn:hover {
-  color: var(--white-background);
-  background-color: var(--pressed-state);
-  border: 1px solid transparent;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+.filter-btn:hover,
 .filter-btn:focus {
   color: var(--white-background);
   background-color: var(--pressed-state);
@@ -508,10 +493,7 @@ img {
 .employees-link {
   display: block;
 }
-.employees-link:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+.employees-link:hover,
 .employees-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
