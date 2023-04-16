@@ -410,6 +410,11 @@ img {
   color: var(--light);
   width: 264px;
 }
+.container {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
 
 /* PORTFOLIO PAGE */
 .main-section {
