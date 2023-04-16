@@ -156,6 +156,8 @@ img {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-header {
   font-style: normal;
@@ -410,11 +412,10 @@ img {
   color: var(--light);
   width: 264px;
 }
-.container {
+
+.container.foo-conteiner {
   display: flex;
   align-items: baseline;
-}
-.container.foo-conteiner {
   margin-right: 120px;
 }
 .foo-content {
@@ -429,7 +430,8 @@ img {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.foo-social-media {
+.foo-social-media-ul {
+  display: flex;
 }
 .foo-social-media-item {
   width: 40px;
